@@ -1,6 +1,5 @@
 import { ArticleApi, ArticleSchema } from "../../modules/article/article.document";
 
-
 export const swaggerOptions = {
 	swaggerDefinition: {
 		openapi: '3.0.0',

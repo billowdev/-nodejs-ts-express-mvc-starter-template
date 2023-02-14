@@ -1,5 +1,4 @@
 
-
 export const ArticleSchema = {
 	"type": "object",
 	"properties": {

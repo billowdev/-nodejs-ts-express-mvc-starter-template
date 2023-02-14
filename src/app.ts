@@ -4,7 +4,7 @@ import cors from 'cors';
 import swaggerUi from 'swagger-ui-express';
 import swaggerJSDoc from 'swagger-jsdoc';
 import { swaggerOptions } from "./common/config/swagger.config";
-import articleController from "./modules/article/article.controller";
+import articleController from "./modules/article/controllers/article.controller";
 
 const App = () => {
 	const app: Express = express();

@@ -1,7 +1,6 @@
 import express, { Request, Response, Express } from 'express';
 import { ApiPath, ApiOperationGet } from 'swagger-express-ts';
-import { swaggerOptions } from './../../common/config/swagger.config';
-
+import { swaggerOptions } from '../../../common/config/swagger.config';
 
 const articleController = async (app: Express) => {
 
@@ -16,6 +15,5 @@ const articleController = async (app: Express) => {
 	);
 }
 export default articleController
-
 
 

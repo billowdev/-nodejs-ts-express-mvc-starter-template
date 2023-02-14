@@ -1,3 +1,3 @@
-import articleController from './article.controller';
+import articleController from './controllers/article.controller';
 
 export { articleController }

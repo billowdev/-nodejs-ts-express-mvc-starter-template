@@ -9,6 +9,7 @@
 ```
 yarn add express dotenv cors
 yarn add -D typescript @types/express @types/cors @types/node nodemon concurrently 
+npm i -g ts-node
 ```
 
 #### add swagger 
